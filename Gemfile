@@ -35,7 +35,7 @@ gem 'capistrano-rails', '~> 1.4'
 gem 'capistrano-passenger'
 gem 'capistrano-rbenv'
 
-gem 'webpacker'
+gem "react_on_rails"
 
 gem 'jquery-rails'
 gem 'normalize-rails'
