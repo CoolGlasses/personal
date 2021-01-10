@@ -82,5 +82,5 @@ test:
 production:
   <<: *default
   database: robinandrea_production
-  username: robinandrea
-  password: <%= ENV['ROBINANDREA_DATABASE_PASSWORD'] %>
+  username: rails
+  password: 'Young-810'
