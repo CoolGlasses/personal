@@ -32,3 +32,26 @@
         Blurb about Coaching Goes Here....
     </div>
 </div>
+<script>
+    button1 = document.getElementById("softwareProjectsButton");
+    button2 = document.getElementById("coachAButton");
+    button1.addEventListener("click", function() { 
+        switchBlurb(button1); 
+    });
+    button2.addEventListener("click", function() {
+        switchBlurb(button2); 
+    });
+    function switchBlurb(button) {
+        if (button == button1) {
+            dont_blurb = document.getElementById("coachABlurb");
+            show_blurb = document.getElementById("softwareProjectsBlurb");
+            dont_blurb.style.display = "none";
+            show_blurb.style.display = "grid";
+        } else {
+            dont_blurb = document.getElementById("softwareProjectsBlurb");
+            show_blurb = document.getElementById("coachABlurb");
+            dont_blurb.style.display = "none";
+            show_blurb.style.display = "grid";
+        }
+    }
+</script>
