@@ -77,13 +77,21 @@
         if (button == button1) {
             dont_blurb = document.getElementById("coachABlurb");
             show_blurb = document.getElementById("softwareProjectsBlurb");
+            dont_blurb_button = document.getElementById("coachAButton");
+            show_blurb_button = document.getElementById("softwareProjectsButton");
             dont_blurb.style.display = "none";
             show_blurb.style.display = "grid";
+            dont_blurb_button.style.backgroundColor = "purple";
+            show_blurb_button.style.backgroundColor = "yellow";
         } else {
             dont_blurb = document.getElementById("softwareProjectsBlurb");
             show_blurb = document.getElementById("coachABlurb");
+            dont_blurb_button = document.getElementById("softwareProjectsButton");
+            show_blurb_button = document.getElementById("coachAButton");
             dont_blurb.style.display = "none";
             show_blurb.style.display = "grid";
+            dont_blurb_button.style.backgroundColor = "purple";
+            show_blurb_button.style.backgroundColor = "yellow";
         }
     }
 </script>
