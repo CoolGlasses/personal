@@ -1,7 +1,7 @@
 body {
     color: white;
     background-image: url(5516336932_02af25c1fa_b.jpeg);
-
+    display: grid;
 }
 
 h1 {
@@ -11,7 +11,9 @@ h1 {
 #homeBody {
     display: grid;
     grid-template-rows: auto auto auto auto;
-    justify-content: center;
+    width: 85%;
+    justify-self: center;
+    align-self: center;
 }
 
 #topHomeContainer {
@@ -20,6 +22,8 @@ h1 {
     grid-template-columns: 39% 22% 39%;
     grid-template-rows: auto auto auto;
     padding: 23px;
+    width: 60%;
+    justify-self: center;
 }
 
 #nameHeader {
@@ -52,6 +56,9 @@ h1 {
     border-style: double;
     padding: 23px;
     color: black;
+    min-width: 60%;
+    max-width: 75%;
+    justify-self: center;
 }
 
 #softwareProjectsButton {
@@ -84,10 +91,13 @@ h1 {
     grid-row: 3 / 4;
     padding: 23px;
     margin: 12px;
+    text-align: center;
 }
 
 #blurbContainer {
     display: grid;
+    width: 60%;
+    justify-self: center;
 }
 
 #softwareProjectsBlurb {
@@ -107,7 +117,7 @@ h1 {
     border-color: black;
     min-width: 75%;
     min-height: 300px;
-    text-align: center;
+    padding: 8px;
 }
 
 #copyrightNotice {
